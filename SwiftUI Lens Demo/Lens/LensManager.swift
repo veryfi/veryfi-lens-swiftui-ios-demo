@@ -10,6 +10,7 @@ import VeryfiLens
 
 class LensManager {
     var eventListener: ((_ json: [String : Any]) -> Void)?
+    
     func configure() {
         let CLIENT_ID = getEnvironmentVar(key: "VERYFI_CLIENT_ID") // replace with your assigned Client Id
         let AUTH_USERNAME = getEnvironmentVar(key: "VERYFI_USERNAME") // replace with your assigned Username
@@ -17,9 +18,9 @@ class LensManager {
         let URL = getEnvironmentVar(key: "VERYFI_URL") // replace with your assigned Endpoint URL
         
         let credentials = VeryfiLensCredentials(clientId: CLIENT_ID,
-                                                          username: AUTH_USERNAME,
-                                                          apiKey: AUTH_APIKEY,
-                                                          url: URL)
+                                                username: AUTH_USERNAME,
+                                                apiKey: AUTH_APIKEY,
+                                                url: URL)
         let settings = VeryfiLensSettings()
         settings.documentTypes = ["receipt"]
         settings.dataExtractionEngine = .cloudAPI
