@@ -140,6 +140,7 @@
 				9DFB4B602902E56900ED3615 /* Frameworks */,
 				9DFB4B612902E56900ED3615 /* Resources */,
 				97FDE3FEDCF35BAA24230EA2 /* [CP] Embed Pods Frameworks */,
+				9DFB4B812902FE8A00ED3615 /* Add environment variables */,
 			);
 			buildRules = (
 			);
@@ -234,6 +235,25 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI Lens Demo/Pods-SwiftUI Lens Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		9DFB4B812902FE8A00ED3615 /* Add environment variables */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}",
+			);
+			name = "Add environment variables";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ -f ./env-variables.sh ]\nthen\nsource ./env-variables.sh\nfi\nINFO_PLIST=\"$BUILT_PRODUCTS_DIR/$INFOPLIST_PATH\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_CLIENT_ID string $VERYFI_CLIENT_ID\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_USERNAME string $VERYFI_USERNAME\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_API_KEY string $VERYFI_API_KEY\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_URL string $VERYFI_URL\" \"$INFO_PLIST\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

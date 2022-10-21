@@ -11,7 +11,15 @@ import VeryfiLens
 class LensManager {
     var eventListener: ((_ json: [String : Any]) -> Void)?
     func configure() {
-        let credentials = VeryfiLensCredentials(clientId: "", username: "", apiKey: "", url: "")
+        let CLIENT_ID = getEnvironmentVar(key: "VERYFI_CLIENT_ID") // replace with your assigned Client Id
+        let AUTH_USERNAME = getEnvironmentVar(key: "VERYFI_USERNAME") // replace with your assigned Username
+        let AUTH_APIKEY = getEnvironmentVar(key: "VERYFI_API_KEY") // replace with your assigned API Key
+        let URL = getEnvironmentVar(key: "VERYFI_URL") // replace with your assigned Endpoint URL
+        
+        let credentials = VeryfiLensCredentials(clientId: CLIENT_ID,
+                                                          username: AUTH_USERNAME,
+                                                          apiKey: AUTH_APIKEY,
+                                                          url: URL)
         let settings = VeryfiLensSettings()
         settings.documentTypes = ["receipt"]
         settings.dataExtractionEngine = .cloudAPI
@@ -33,6 +41,11 @@ class LensManager {
     func removeDelegate() {
         self.eventListener = nil
         VeryfiLens.shared().delegate = nil
+    }
+    
+    //Func to get environment variables.
+    private func getEnvironmentVar(key: String) -> String {
+        return Bundle.main.object(forInfoDictionaryKey: key) as? String ?? ""
     }
 }
 
