@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DFB4B672902E56900ED3615 /* SwiftUI_Lens_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB4B662902E56900ED3615 /* SwiftUI_Lens_DemoApp.swift */; };
+		9DFB4B692902E56900ED3615 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB4B682902E56900ED3615 /* ContentView.swift */; };
+		9DFB4B6B2902E56A00ED3615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB4B6A2902E56A00ED3615 /* Assets.xcassets */; };
+		9DFB4B6E2902E56A00ED3615 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFB4B6D2902E56A00ED3615 /* Preview Assets.xcassets */; };
+		9DFB4B762902E74D00ED3615 /* LensConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB4B752902E74D00ED3615 /* LensConsoleView.swift */; };
+		9DFB4B782902ED1300ED3615 /* VeryfiLens.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFB4B772902ED1300ED3615 /* VeryfiLens.xcframework */; };
+		9DFB4B7D2902F0D300ED3615 /* UIApplication+CurrentUIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB4B7C2902F0D300ED3615 /* UIApplication+CurrentUIWindow.swift */; };
+		9DFB4B802902F39F00ED3615 /* LensManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB4B7F2902F39F00ED3615 /* LensManager.swift */; };
+		B550AE565C45815E0EBC707A /* Pods_SwiftUI_Lens_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AC9957E72526DB26BB5441 /* Pods_SwiftUI_Lens_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		439A3587F7C43A5469D715B8 /* Pods-SwiftUI Lens Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI Lens Demo.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI Lens Demo/Pods-SwiftUI Lens Demo.release.xcconfig"; sourceTree = "<group>"; };
+		53AC9957E72526DB26BB5441 /* Pods_SwiftUI_Lens_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Lens_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFB4B632902E56900ED3615 /* SwiftUI Lens Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Lens Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFB4B662902E56900ED3615 /* SwiftUI_Lens_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Lens_DemoApp.swift; sourceTree = "<group>"; };
+		9DFB4B682902E56900ED3615 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9DFB4B6A2902E56A00ED3615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DFB4B6D2902E56A00ED3615 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DFB4B752902E74D00ED3615 /* LensConsoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensConsoleView.swift; sourceTree = "<group>"; };
+		9DFB4B772902ED1300ED3615 /* VeryfiLens.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VeryfiLens.xcframework; path = Pods/VeryfiLens/VeryfiLens.xcframework; sourceTree = "<group>"; };
+		9DFB4B7C2902F0D300ED3615 /* UIApplication+CurrentUIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+CurrentUIWindow.swift"; sourceTree = "<group>"; };
+		9DFB4B7F2902F39F00ED3615 /* LensManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensManager.swift; sourceTree = "<group>"; };
+		C238716FF6862CEBCB37AA31 /* Pods-SwiftUI Lens Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI Lens Demo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI Lens Demo/Pods-SwiftUI Lens Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DFB4B602902E56900ED3615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFB4B782902ED1300ED3615 /* VeryfiLens.xcframework in Frameworks */,
+				B550AE565C45815E0EBC707A /* Pods_SwiftUI_Lens_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71951E5BDFA28D1C2992E384 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C238716FF6862CEBCB37AA31 /* Pods-SwiftUI Lens Demo.debug.xcconfig */,
+				439A3587F7C43A5469D715B8 /* Pods-SwiftUI Lens Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9DFB4B5A2902E56900ED3615 = {
+			isa = PBXGroup;
+			children = (
+				9DFB4B652902E56900ED3615 /* SwiftUI Lens Demo */,
+				9DFB4B642902E56900ED3615 /* Products */,
+				71951E5BDFA28D1C2992E384 /* Pods */,
+				CCCC6C8549BEE0C93EF89D23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DFB4B642902E56900ED3615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB4B632902E56900ED3615 /* SwiftUI Lens Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DFB4B652902E56900ED3615 /* SwiftUI Lens Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB4B7E2902F39500ED3615 /* Lens */,
+				9DFB4B7B2902F0BE00ED3615 /* Extension */,
+				9DFB4B742902E73D00ED3615 /* Views */,
+				9DFB4B662902E56900ED3615 /* SwiftUI_Lens_DemoApp.swift */,
+				9DFB4B6A2902E56A00ED3615 /* Assets.xcassets */,
+				9DFB4B6C2902E56A00ED3615 /* Preview Content */,
+			);
+			path = "SwiftUI Lens Demo";
+			sourceTree = "<group>";
+		};
+		9DFB4B6C2902E56A00ED3615 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB4B6D2902E56A00ED3615 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DFB4B742902E73D00ED3615 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB4B682902E56900ED3615 /* ContentView.swift */,
+				9DFB4B752902E74D00ED3615 /* LensConsoleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DFB4B7B2902F0BE00ED3615 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB4B7C2902F0D300ED3615 /* UIApplication+CurrentUIWindow.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9DFB4B7E2902F39500ED3615 /* Lens */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB4B7F2902F39F00ED3615 /* LensManager.swift */,
+			);
+			path = Lens;
+			sourceTree = "<group>";
+		};
+		CCCC6C8549BEE0C93EF89D23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB4B772902ED1300ED3615 /* VeryfiLens.xcframework */,
+				53AC9957E72526DB26BB5441 /* Pods_SwiftUI_Lens_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DFB4B622902E56900ED3615 /* SwiftUI Lens Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFB4B712902E56A00ED3615 /* Build configuration list for PBXNativeTarget "SwiftUI Lens Demo" */;
+			buildPhases = (
+				84DB6F50FF6FA71D8E190D8A /* [CP] Check Pods Manifest.lock */,
+				9DFB4B5F2902E56900ED3615 /* Sources */,
+				9DFB4B602902E56900ED3615 /* Frameworks */,
+				9DFB4B612902E56900ED3615 /* Resources */,
+				97FDE3FEDCF35BAA24230EA2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI Lens Demo";
+			productName = "SwiftUI Lens Demo";
+			productReference = 9DFB4B632902E56900ED3615 /* SwiftUI Lens Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DFB4B5B2902E56900ED3615 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					9DFB4B622902E56900ED3615 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9DFB4B5E2902E56900ED3615 /* Build configuration list for PBXProject "SwiftUI Lens Demo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DFB4B5A2902E56900ED3615;
+			productRefGroup = 9DFB4B642902E56900ED3615 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DFB4B622902E56900ED3615 /* SwiftUI Lens Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DFB4B612902E56900ED3615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFB4B6E2902E56A00ED3615 /* Preview Assets.xcassets in Resources */,
+				9DFB4B6B2902E56A00ED3615 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84DB6F50FF6FA71D8E190D8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI Lens Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97FDE3FEDCF35BAA24230EA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI Lens Demo/Pods-SwiftUI Lens Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI Lens Demo/Pods-SwiftUI Lens Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI Lens Demo/Pods-SwiftUI Lens Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DFB4B5F2902E56900ED3615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFB4B7D2902F0D300ED3615 /* UIApplication+CurrentUIWindow.swift in Sources */,
+				9DFB4B802902F39F00ED3615 /* LensManager.swift in Sources */,
+				9DFB4B692902E56900ED3615 /* ContentView.swift in Sources */,
+				9DFB4B672902E56900ED3615 /* SwiftUI_Lens_DemoApp.swift in Sources */,
+				9DFB4B762902E74D00ED3615 /* LensConsoleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9DFB4B6F2902E56A00ED3615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DFB4B702902E56A00ED3615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DFB4B722902E56A00ED3615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C238716FF6862CEBCB37AA31 /* Pods-SwiftUI Lens Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Lens Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = PVK8E2NA4T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan documents";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Helps to identify places around you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Helps to identify places around you";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Back up your document images in your photo gallery";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose document images to process from your photo gallery";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.veryfi.SwiftUI-Lens-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DFB4B732902E56A00ED3615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439A3587F7C43A5469D715B8 /* Pods-SwiftUI Lens Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Lens Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = PVK8E2NA4T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan documents";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Helps to identify places around you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Helps to identify places around you";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Back up your document images in your photo gallery";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose document images to process from your photo gallery";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.veryfi.SwiftUI-Lens-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DFB4B5E2902E56900ED3615 /* Build configuration list for PBXProject "SwiftUI Lens Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFB4B6F2902E56A00ED3615 /* Debug */,
+				9DFB4B702902E56A00ED3615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFB4B712902E56A00ED3615 /* Build configuration list for PBXNativeTarget "SwiftUI Lens Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFB4B722902E56A00ED3615 /* Debug */,
+				9DFB4B732902E56A00ED3615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DFB4B5B2902E56900ED3615 /* Project object */;
+}
