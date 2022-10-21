@@ -23,7 +23,7 @@ You can read further about Lens in Veryfi's dedicated page: https://www.veryfi.c
 
 ## Veryfi Lens iOS Example <a name="example"></a>
 
-![gif-receipts](https://user-images.githubusercontent.com/30237430/162517329-ac52098b-4220-488b-9fbb-debcf25c70e0.gif)
+![gif-receipts](https://user-images.githubusercontent.com/30441118/197249360-94243d7c-3b4f-45f3-b1e2-e3dd2bb75863.gif)
 
 ## Other Lens iOS Examples <a name="examples"></a>
 This is an example of how to use Veryfi Lens Receipts in your app, you can find the developer documentation [here](iOSLensReceipts.pdf).
