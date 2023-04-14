@@ -8,6 +8,6 @@ target 'SwiftUI Lens Demo' do
   use_frameworks!
 
   # Pods for SwiftUI Lens Demo
-  pod 'VeryfiLens', '2.0.10.1'
+  pod 'VeryfiLens', '2.0.11.1'
 
 end
