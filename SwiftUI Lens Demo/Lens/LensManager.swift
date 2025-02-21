@@ -28,7 +28,7 @@ class LensManager {
         VeryfiLens.shared().configure(with: credentials, settings: settings)
     }
     
-    func showCamera() {
+    @MainActor func showCamera() {
         if let rootViewController = UIApplication.shared.currentUIWindow()?.rootViewController {
             VeryfiLens.shared().showCamera(in: rootViewController)
         }
